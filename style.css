@@ -105,7 +105,7 @@ nav {
 
 .Banner-img {
 
-    background-image: url('./HTML\ CSS\ Assignment/pexels-robin-stickel-70497.jpg');
+    background-image: url('./pexels-robin-stickel-70497.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: bottom;
@@ -169,7 +169,7 @@ img {
 
     grid-column: 1/2;
     grid-row: 1/2;
-    background-image: url('./HTML\ CSS\ Assignment/pexels-rachel-claire-6752433.jpg');
+    background-image: url('./pexels-rachel-claire-6752433.jpg');
     background-size: cover;
     background-position: center;
     
@@ -179,7 +179,7 @@ img {
 
     grid-column: 1/2;
     grid-row: 2/3;
-    background-image: url('./HTML\ CSS\ Assignment/pexels-eva-bronzini-6141651.jpg');
+    background-image: url('./pexels-eva-bronzini-6141651.jpg');
     background-size: cover;
     background-position: center;
   
@@ -189,7 +189,7 @@ img {
 
     grid-column: 2/3;
     grid-row: 1/3;
-    background-image: url('./HTML\ CSS\ Assignment/pexels-mister-mister-3434523.jpg');
+    background-image: url('./pexels-mister-mister-3434523.jpg');
     background-size: cover;
     background-position: top;
     
@@ -340,7 +340,7 @@ img {
     .main-content {
         
         display: flex;  
-        background-image: url('./HTML\ CSS\ Assignment/pexels-robin-stickel-70497.jpg'); 
+        background-image: url('./pexels-robin-stickel-70497.jpg'); 
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
