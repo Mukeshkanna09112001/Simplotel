@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+  }
+
+body, html {
+
+    height:100%;
+    width: 100%;
+    font-family: 'Roboto',serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+
+/*Nav-bar styling*/
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 8px #000000;
+    background-color: #ff7171;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    font-weight: bold;
+
+}
+
+
+.nav-bar li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 0 2.5rem;
+    
+  }
+  
+.nav-bar a {
+
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav-bar a:hover {
+
+    color: white;
+
+}
+  
+.nav-bar img {
+
+    max-width: 8vmax;
+    max-height: 6vmax;
+    padding-left: 2.5rem;
+    
+ }
+
+
+/*homepage styling*/
+
+.main-content {
+
+    display: flex;
+    max-width: 100vmax;
+    max-height: 85vmax;
+    background: #f3f58794;
+    background: linear-gradient(to right, #f3f594ad 20%, #FF53B4 100%);
+    
+}
+
+.title-content {
+
+    padding: 7% 6% ;
+    max-width: 50vw;
+    max-height: 90vh;
+    flex-basis: 50%;
+
+}
+
+.title-content > p {
+
+    line-height: 1.8;
+    word-spacing: .2rem;
+
+}
+
+.title-content h1 {
+
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+    letter-spacing: .5rem;
+
+}
+
+.Banner-img {
+
+    background-image: url('./HTML\ CSS\ Assignment/pexels-robin-stickel-70497.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    flex-basis: 50%;
+    max-width: 50vw;
+    height: 90vh;
+     
+}
+
+.title-content .btn {
+
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #ff7171;
+    border: none;
+    color: #fff;
+    margin-top: 3.3rem;
+    cursor: pointer;
+
+}
+
+img {
+
+    max-width: 100%;
+    height: 100%;
+
+}
+
+
+/*homepage 2 styling */
+
+.footer-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vmax;
+    max-height: 100vmax;
+    background: #fffa6ec9;
+    background: linear-gradient(to bottom right, #f3ee62d2 0%, #FF53B4 100%);
+    gap: 2rem;
+    
+}
+
+.img-gallery {
+
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 16.1vw);
+    grid-gap: 0.938rem;
+    height: 100vh;
+    width: 50vmax;    
+    flex-basis: 50%;
+    padding: 4rem;
+    
+}
+
+.grid-1 {
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url('./HTML\ CSS\ Assignment/pexels-rachel-claire-6752433.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.grid-2 {
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url('./HTML\ CSS\ Assignment/pexels-eva-bronzini-6141651.jpg');
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.grid-3 {
+
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-image: url('./HTML\ CSS\ Assignment/pexels-mister-mister-3434523.jpg');
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.learn-more {
+
+    background-color: #ff7171;
+    max-width:35vmax;
+    height: 40vh;
+    padding: 2rem 1.5rem;
+    flex-basis: 50%;  
+
+}
+
+.learn-more h1 {
+
+    text-transform: uppercase;
+    font-size: 3.125rem;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.625rem;
+
+}
+
+.learn-more a img {
+
+    padding-left: .5rem; 
+    max-width: 3vw;
+    max-height: 3vh;
+    padding-top: .5rem;   
+
+}
+
+.learn-more a{
+
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+
+/*TV Screen */
+
+@media only screen and (min-width: 2560px){
+
+    .learn-more {
+
+       height: 35vh;
+
+    }
+
+}
+
+
+/*small laptop*/
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .nav-bar{
+
+        font-size: 1.2rem;
+
+    }
+
+    .title-content h1 {
+
+        font-size: 2.5rem;
+
+    }
+    
+    .learn-more h1 {
+
+        font-size: 2rem;
+
+    }
+
+}
+
+
+/*Tablet*/
+@media (min-width: 600px) and (max-width: 768px){
+
+    .nav-bar li {
+
+        padding: 0 1.5rem;
+        margin: 1rem 0;
+
+    }
+
+    nav {
+
+        font-size: 1rem;
+
+    }
+
+    .title-content h1 {
+
+        font-size: 2rem;
+        margin-bottom: 2.8rem;
+
+    }
+
+    .title-content > p {
+
+        line-height: 1.4;
+        word-spacing: .1rem;
+
+    }
+
+    .title-content {
+
+        padding: 5% 3%;
+
+    }
+
+    .learn-more h1 {
+
+        font-size: 1.5rem;
+
+    }
+
+}
+
+
+/*Mobile*/
+
+@media (min-width: 300px) and (max-width: 580px){
+
+    .nav-bar .hide{
+
+        display: none;
+
+    }
+
+    .nav-bar li {
+
+        padding: 0 1rem;
+
+    }
+
+    .nav-bar {
+
+        font-size: 1.2rem;
+
+    }
+
+    .main-content {
+        
+        display: flex;  
+        background-image: url('./HTML\ CSS\ Assignment/pexels-robin-stickel-70497.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(60%);
+        opacity: 80%;
+        max-width: 100vw;
+        max-height: 100vh;
+    
+    }
+    
+
+    .title-content {
+
+        backdrop-filter: blur(6.5px);
+        font-weight: 900;
+        max-height: 100vh;
+        max-width: 100vw;
+    
+    }
+    
+    .title-content h1 {
+
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        letter-spacing: .5rem;
+        font-weight: 800;
+        letter-spacing:0.25rem;
+    
+    }
+    
+    
+    .Banner-img {
+
+        display: none;  
+
+    }
+    
+    
+    .title-content .btn {
+
+        width: 11.25rem;
+        background-color: #ff7171;
+        margin-top: 1.5rem;
+        
+    }
+    
+    
+    img {
+
+        max-width: 100vmax;
+        max-height: 200vh;
+    }
+
+
+    .footer-content {
+
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 200%;
+        margin: 0;
+        padding:0;
+        
+    }
+
+    .img-gallery {
+
+        grid-template-rows: repeat(2, 50vw);
+        height: 100vh;
+        width: 100vmax;    
+        flex-basis: 100%;
+       
+    }
+    
+    
+    .learn-more {
+ 
+        max-width:100%;
+        max-height: 100%;
+        padding: 1.8rem;
+        margin-bottom: 2.5rem;
+
+    }
+    
+    .learn-more h1 {
+
+        font-size: 2rem;
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+        letter-spacing: .5rem;
+        
+    }
+    
+    .learn-more a img {
+
+        padding-left: 1em; 
+        max-width: 5vw;
+        max-height: 5vh;
+        padding-top: 1.5em;
+           
+    }
+    
+
+}
