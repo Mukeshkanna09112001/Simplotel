@@ -1,2 +1,2 @@
-# Simplotel
+
 HTML &amp; CSS
